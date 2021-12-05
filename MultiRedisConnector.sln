@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiRedisConnector", "MultiRedisConnector.csproj", "{83C72692-83B8-496A-B8B9-717010F86D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiRedisConnector.Domain", "..\MultiRedisConnector.Domain\MultiRedisConnector.Domain.csproj", "{D0F8E552-B738-4904-A519-0F1F4DC1E168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiRedisConnector.Infrastructure", "..\MultiRedisConnector.Infrastructure\MultiRedisConnector.Infrastructure.csproj", "{1E4C6088-C394-42C2-AC4E-72EC7ACD7FD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83C72692-83B8-496A-B8B9-717010F86D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C72692-83B8-496A-B8B9-717010F86D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C72692-83B8-496A-B8B9-717010F86D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C72692-83B8-496A-B8B9-717010F86D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F8E552-B738-4904-A519-0F1F4DC1E168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F8E552-B738-4904-A519-0F1F4DC1E168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F8E552-B738-4904-A519-0F1F4DC1E168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F8E552-B738-4904-A519-0F1F4DC1E168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4C6088-C394-42C2-AC4E-72EC7ACD7FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4C6088-C394-42C2-AC4E-72EC7ACD7FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4C6088-C394-42C2-AC4E-72EC7ACD7FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4C6088-C394-42C2-AC4E-72EC7ACD7FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54D5F7F8-8DDD-4347-8792-37A093206B83}
+	EndGlobalSection
+EndGlobal
